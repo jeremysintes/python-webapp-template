@@ -1,0 +1,4 @@
+Checklist
+*.pyc
+__pycache__
+\NAME_OF_THE_APP\static\node_modules\materialize-css\node_modules

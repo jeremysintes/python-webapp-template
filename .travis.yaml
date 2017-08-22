@@ -1,0 +1,17 @@
+language: python
+python:
+    - "3.6"
+install: 
+    - "pip install -r requirements.txt --use-mirrors"
+
+    #- "pip install coverage" # for coveralls.io
+    #- "pip install coveralls" # for coveralls.io
+
+script: 
+    - python setup.py test # standard
+
+    #- "coverage run --source=NAME_OF_THE_APP setup.py test" # for coveralls.io, and remove standard
+
+
+# after_success: #for coveralls.io
+    coveralls #for coveralls.io
