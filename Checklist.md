@@ -16,9 +16,9 @@ https://cookiecutter.readthedocs.io/en/latest/usage.html
 ## GIT
 
 - Clone the template
-	`git clone ???`
+	`git clone https://github.com/jeremysintes/python-webapp-template/`
 
-- Git flow cheatsheet
+- Use git flow cheatsheet
 	http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
 
 
