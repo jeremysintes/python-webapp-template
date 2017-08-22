@@ -72,10 +72,19 @@ To run the application in the development web server just execute `run.py` with 
 
 - Choose a license (https://choosealicense.com)
 
-- Update the LICENSE file
+- navigate to the main page of the repository GUI
+
+- click __Create new file__
+
+- In the file name field, type LICENSE (with all caps)
+
+- click __Choose a license template__
+
+- select a license from the list
+
+- review and submit
 
 - commit
-	`git commit -m "Choosing the appropriate license"`
 
 
 
