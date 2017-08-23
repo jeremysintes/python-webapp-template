@@ -12,6 +12,7 @@
 	`{% endblock %}`
 
 - In /NAME_OF_THE_APP/views.py, add :
+
 	`@app.route('/NAME_OF_YOUR_HTML_FILE')`
 
 	`def NAME_OF_YOUR_HTML_FILE():`
