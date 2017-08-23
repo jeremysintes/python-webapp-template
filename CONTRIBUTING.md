@@ -41,8 +41,4 @@
 
 - put your files in NAME_OF_THE_APP/static
 
-- use the path {{ url_for('static',filename='PATH/FROM/STATIC/FOLDER')}} 
-
-
-### error management
-- Do not forget to catch errors in views.py by using try/except instance
+- use the path `{{ url_for('static',filename='PATH/FROM/STATIC/FOLDER')}}`
