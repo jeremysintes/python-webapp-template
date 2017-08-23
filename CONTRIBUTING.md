@@ -32,9 +32,9 @@
 
 
 - add FOR or IF logic in your HTML file
-		{% for ... in ... % }
+		`{% for ... in ... % }
 		[your code]
-		{ % endfor % }
+		{ % endfor % }`
 
 
 ### static file tips
