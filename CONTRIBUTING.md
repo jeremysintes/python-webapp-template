@@ -12,10 +12,9 @@
 	`{% endblock %}`
 
 - In /NAME_OF_THE_APP/views.py, add :
-
-	`@app.route('/NAME_OF_YOUR_HTML_FILE')
-	def NAME_OF_YOUR_HTML_FILE():
-		return render_template("NAME_OF_YOUR_HTML_FILE.html", title='TITLE_OF_YOUR_HTML_FILE')`
+	`@app.route('/NAME_OF_YOUR_HTML_FILE')`
+	`def NAME_OF_YOUR_HTML_FILE():`
+		`return render_template("NAME_OF_YOUR_HTML_FILE.html", title='TITLE_OF_YOUR_HTML_FILE')`
 
 
 ### jinja tips 
@@ -23,7 +22,9 @@
 - add variables in views.py as VAR1 to be used in your HTML page with `{{VAR1}}`
 	
 	`@app.route('/NAME_OF_YOUR_HTML_FILE')
+
 	def NAME_OF_YOUR_HTML_FILE():
+	
 		return render_template("NAME_OF_YOUR_HTML_FILE.html", title='TITLE_OF_YOUR_HTML_FILE', VAR1= VAR1, VAR2= "exemple of string var")`
 
 
