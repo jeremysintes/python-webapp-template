@@ -38,5 +38,5 @@
 - Activate the developpement environment : 
 	`activate NAME_OF_THE_APP`
 
-- Run the application 
+- Run the application :
 	(platform_demo)$ `python run.py`
