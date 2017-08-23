@@ -14,5 +14,29 @@
 
 
 
-## Pre-requisites
+## PRE-REQUISITES
+- Anaconda
 
+
+
+## SPECIFICATION
+
+
+- Create a developpement environment (recommended): 
+	`conda env create -n NAME_OF_THE_APP`
+
+- Activate the developpement environment : 
+	`activate NAME_OF_THE_APP`
+
+- Install the required librairies :
+	(platform_demo)$ `pip install -r requirements`
+
+
+
+## RUNNING
+
+- Activate the developpement environment : 
+	`activate NAME_OF_THE_APP`
+
+- Run the application 
+	(platform_demo)$ `python run.py`
