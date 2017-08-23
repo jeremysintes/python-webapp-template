@@ -32,6 +32,7 @@
 
 		`return 
 
+
 		render_template
 			("NAME_OF_YOUR_HTML_FILE.html", title='TITLE_OF_YOUR_HTML_FILE', VAR1= VAR1, VAR2= "exemple of string var")`
 
