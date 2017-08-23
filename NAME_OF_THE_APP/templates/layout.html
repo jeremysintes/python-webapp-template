@@ -21,11 +21,12 @@
       <link rel="icon" href="http://via.placeholder.com/32x32" sizes="32x32">
 
       <!-- The title is automatically defined according to the flask title -->
-      <title>{% if title %}<title>{{ title }}</title>{% else %}<title>Welcome</title>{% endif %}</title>
+      <title>{% if title %}{{ title }}{% else %}
+      Welcome
+      {% endif %}</title>
 
       <!-- Bootstrap core CSS online-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
 
       <!-- Bootstrap core CSS core -->
       <!-- <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='node_modules/bootstrap/dist/css/bootstrap.css')}}"  media="screen,projection"/> -->
@@ -64,7 +65,7 @@
 
       <!-- ~~~~~~~~    brand start    ~~~~~~~~ -->
 
-        <a class="navbar-brand" href="#"><img src="http://via.placeholder.com/32x32" width="30" height="30" class="d-inline-block align-top" alt=""> Navbar</a>
+        <a class="navbar-brand" href="/"><img src="http://via.placeholder.com/32x32" width="30" height="30" class="d-inline-block align-top" alt=""> Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -152,18 +153,23 @@
 
 
     <!-- ++++++++++    MAIN   START    ++++++++++ -->
-
-      {% block content %}{% endblock %}   
-
+    
+      <main>
+        {% block content %}{% endblock %}   
+      </main>
     <!-- ++++++++++    MAIN   END    ++++++++++ -->
 
 
 
     <!-- ++++++++++    FOOTER   START    ++++++++++ -->
-      <hr>
-      <footer>
-        <p>© 2017 Company, Inc.</p>
+      
+      <footer class="footer" style="position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; background-color: #fff;">
+
+        <div class="container">
+          <span class="text-muted">© 2017 Company, Inc.</span>
+        </div>
       </footer>
+
 
     <!-- ++++++++++    FOOTER   END    ++++++++++ -->
 
