@@ -13,3 +13,8 @@ from flask import render_template
 def index():
     return render_template("index.html",
                            title='Home')
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html', title='page not found'), 404
