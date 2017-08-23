@@ -38,15 +38,8 @@ From the root
 ## NAME
 
 - Replace NAME_OF_THE_APP by the name of your app
-	- Folder at the root
-	- README
-	- run.py
-	- .travis.yaml
-	- .gitignore
-	- NAME_OF_THE_APP > views.py
-	- NAME_OF_THE_APP > __init__.py
-	- NAME_OF_THE_APP > tests > tests_NAME_OF_THE_APP.py
-
+	With Sublime Texte : use `find` > `find in files`
+	http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace_files.html
 
 
 ## RUNNING
@@ -88,8 +81,9 @@ To run the application in the development web server just execute `run.py` with 
 
 
 
+## FRONT END
 
-## LAYOUT
+### LAYOUT
 
 - complet description
 - complet keyword
@@ -97,14 +91,12 @@ To run the application in the development web server just execute `run.py` with 
 - replace icon in nav bar
 
 
-
-## DESIGN
+### DESIGN
 
 Bootstrap is the HTML, CSS, and JS framework selected by default in the template file.
 
 To consult the components available : 
 	https://getbootstrap.com/docs/3.3/components/
-
 
 
 
@@ -120,56 +112,55 @@ voir jasmine de materialize
 
 ## OPEN SOURCE PROJECT
 
-	### CODE OF CONDUCT
+### CODE OF CONDUCT
 
-	- install the Contributor Covenant node module ?
-		`npm install -g covgen`
+- install the Contributor Covenant node module ?
+	`npm install -g covgen`
 
-	- Generate the Contributor Covenant
-		`covgen <your mail address>`	
+- Generate the Contributor Covenant
+	`covgen <your mail address>`	
 
-	- Look for more information on how to use the Contributor Covenant and how to enforce it
-		https://contributor-covenant.org/
+- Look for more information on how to use the Contributor Covenant and how to enforce it
+	https://contributor-covenant.org/
 
 
 
 
 ## SHARING
 
-	### REQUIREMENTS
-	from the root
-	- Generate your requirements.txt file automatically 
-		`pip install pipreqs`
-		`pipreqs --force .`
+### REQUIREMENTS
+from the root
+- Generate your requirements.txt file automatically 
+	`pip install pipreqs`
+	`pipreqs --force .`
+
+- Commit
+	`git commit -m "adding requirements.txt"`
 
 
-	- Commit
-		`git commit -m "adding requirements.txt"`
+### SETUP
+
+Voir Setutptools
+
+### MANIFEST.in
+
+- Check the completness of you manifest (https://pypi.python.org/pypi/check-manifest)
+from the root
+`pip install check-manifest`
+`check-manifest`
 
 
-	### SETUP
+### PyPI 
 
-	Voir Setutptools
+	--> See setuptools documentation for more info concerning binary distribution
 
-	### MANIFEST.in
+- Sanity check first with cheesecake
 
-	- Check the completness of you manifest (https://pypi.python.org/pypi/check-manifest)
-	from the root
-	`pip install check-manifest`
-	`check-manifest`
+- first time? Register your package (account on PyPI required)
+	`python setup.py register`
 
-
-	### PyPI 
-
-		--> See setuptools documentation for more info concerning binary distribution
-
-	- Sanity check first with cheesecake
-
-	- first time? Register your package (account on PyPI required)
-		`python setup.py register`
-
-	- create your distributable package and upload it to PyPI
-		`python setup.py sdist upload`
+- create your distributable package and upload it to PyPI
+	`python setup.py sdist upload`
 
 
 
@@ -187,16 +178,16 @@ https://realpython.com/blog/python/generating-code-documentation-with-pycco/
 
 
 ## PROJECT MANAGEMENT
-	### CHAT
-	https://gitter.im/ or Slack?
+### CHAT
+https://gitter.im/ or Slack?
 
-	### TASK MANAGER
-	Trello
-
-	
-	### PRIVACY by DESIGN
-	Génération automatique des textes réglementaires (DPIA, Confidentiality Policy, ...)
+### TASK MANAGER
+Trello
 
 
-	### SECURITE by DESIGN
-	Dev Sec Ops? Intégrer éléments de pain test dans l'intégration continue?
+### PRIVACY by DESIGN
+Génération automatique des textes réglementaires (DPIA, Confidentiality Policy, ...)
+
+
+### SECURITE by DESIGN
+Dev Sec Ops? Intégrer éléments de pain test dans l'intégration continue?
