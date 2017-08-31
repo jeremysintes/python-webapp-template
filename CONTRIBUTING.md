@@ -2,7 +2,7 @@
 
 ## ADD HTML PAGE
 
-- Create a new HTML page in NAME_OF_THE_APP/templates 
+- Create a new HTML page in NAME_OF_THE_PROJECT/templates 
 
 - Start your file with :
 	`{% extends "base.html" %}
@@ -11,7 +11,7 @@
 - End your file with :
 	`{% endblock %}`
 
-- In /NAME_OF_THE_APP/views.py, add 
+- In /NAME_OF_THE_PROJECT/views.py, add 
 
 		@app.route('/NAME_OF_YOUR_HTML_FILE')
 		def NAME_OF_YOUR_HTML_FILE():
@@ -39,6 +39,6 @@
 
 ### static file tips
 
-- put your files in NAME_OF_THE_APP/static
+- put your files in NAME_OF_THE_PROJECT/static
 
 - use the path `{{ url_for('static',filename='PATH/FROM/STATIC/FOLDER')}}`

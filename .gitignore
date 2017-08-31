@@ -1,6 +1,6 @@
 # other
 *.pyc
-\NAME_OF_THE_APP\static\node_modules\materialize-css\node_modules
+\NAME_OF_THE_PROJECT\static\node_modules\materialize-css\node_modules
 
 
 # Byte-compiled / optimized / DLL files

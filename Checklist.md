@@ -7,9 +7,12 @@ https://cookiecutter.readthedocs.io/en/latest/usage.html
 # CHECKLIST
 
 ## PRE-REQUISITES
-- nodejs : https://nodejs.org/en/
+- nodejs : https://nodejs.org/en/ (?)
 - anaconda for the environment creation (ou virtualenv)
 
+
+## PRODUCTION
+Remove debug mode
 
 
 
@@ -17,6 +20,7 @@ https://cookiecutter.readthedocs.io/en/latest/usage.html
 
 - Clone the template
 	`git clone https://github.com/jeremysintes/python-webapp-template/`
+
 
 - Use git flow cheatsheet
 	http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
@@ -27,19 +31,23 @@ https://cookiecutter.readthedocs.io/en/latest/usage.html
 ## DEVELOPMENT ENVIRONMENT
 
 - Create an environment (with conda for exemple)
-	`conda env create -n NAME_OF_THE_APP`
+	`conda env create -n NAME_OF_THE_PROJECT`
+
+- Activate the environment 
+	`activate NAME_OF_THE_PROJECT`
 
 From the root
 - Install the minimum requirements to run the app
-	`pip install -r requirements.txt`
+	(NAME_OF_THE_PROJECT) $ `pip install -r requirements.txt`
 
 
 
 ## NAME
 
-- Replace NAME_OF_THE_APP by the name of your app
+- Replace NAME_OF_THE_PROJECT by the name of your app
 	With Sublime Texte : use `find` > `find in files`
 	http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace_files.html
+	Do not forget to rename the main folder as well
 
 
 ## RUNNING
@@ -48,11 +56,11 @@ From the root
 To run the application in the development web server just execute `run.py` with the Python interpreter from the flask virtual environment :
 
 - Activate the environment 
-	`$ activate NAME_OF_THE_APP`
+	`$ activate NAME_OF_THE_PROJECT`
 
 - Start the app
 	from the root
-	`(NAME_OF_THE_APP) $ python run.py`
+	(NAME_OF_THE_PROJECT) $ `python run.py`
 
 
 - If everything is working properly commit
@@ -105,7 +113,7 @@ To consult the components available :
 voir py.test
 voir tox
 voir jasmine de materialize
-
+voir https://travis-ci.org/
 
 
 
@@ -172,9 +180,10 @@ https://realpython.com/blog/python/generating-code-documentation-with-pycco/
 	`pip install sphynx`
 
 - Autogenerate your doc
-	`sphinx-apidoc -F -o docs NAME_OF_THE_APP`
+	`sphinx-apidoc -F -o docs NAME_OF_THE_PROJECT`
 
 
+voir https://realpython.com/blog/python/generating-code-documentation-with-pycco/
 
 
 ## PROJECT MANAGEMENT
@@ -189,5 +198,13 @@ Trello
 Génération automatique des textes réglementaires (DPIA, Confidentiality Policy, ...)
 
 
-### SECURITE by DESIGN
-Dev Sec Ops? Intégrer éléments de pain test dans l'intégration continue?
+### SECURE by DESIGN
+Dev Sec Ops? Intégrer éléments de pen test dans l'intégration continue?
+
+### API First design 
+https://github.com/jeffknupp/sandman2
+
+## SOURCES
+https://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/
+https://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
+http://docs.python-guide.org/en/latest/writing/structure/

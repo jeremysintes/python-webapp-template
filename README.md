@@ -7,7 +7,7 @@
 
 
 
-# NAME_OF_THE_APP
+# NAME_OF_THE_PROJECT
 
 
 --> Goal of the project/tutorial/software
@@ -23,10 +23,10 @@
 
 
 - Create a developpement environment (recommended): 
-	`conda env create -n NAME_OF_THE_APP`
+	`conda env create -n NAME_OF_THE_PROJECT`
 
 - Activate the developpement environment : 
-	`activate NAME_OF_THE_APP`
+	`activate NAME_OF_THE_PROJECT`
 
 - Install the required librairies :
 	(platform_demo)$ `pip install -r requirements`
@@ -36,7 +36,7 @@
 ## RUNNING
 
 - Activate the developpement environment : 
-	`activate NAME_OF_THE_APP`
+	`activate NAME_OF_THE_PROJECT`
 
 - Run the application :
 	(platform_demo)$ `python run.py`
