@@ -166,7 +166,7 @@ from the root
 
 - first time? Register your package (account on PyPI required)
 	`python setup.py register`
-
+ 
 - create your distributable package and upload it to PyPI
 	`python setup.py sdist upload`
 
@@ -174,6 +174,8 @@ from the root
 
 ## DOCUMENTATION
 
+Tuto : http://thomas-cokelaer.info/tutorials/sphinx/quickstart.html
+http://docs.python-guide.org/en/latest/writing/documentation/
 https://realpython.com/blog/python/generating-code-documentation-with-pycco/
 
 - Install Sphynx in your environment
@@ -184,6 +186,8 @@ https://realpython.com/blog/python/generating-code-documentation-with-pycco/
 
 
 voir https://realpython.com/blog/python/generating-code-documentation-with-pycco/
+
+voir https://docs.readthedocs.io/en/latest/webhooks.html
 
 
 ## PROJECT MANAGEMENT
@@ -203,6 +207,14 @@ Dev Sec Ops? Intégrer éléments de pen test dans l'intégration continue?
 
 ### API First design 
 https://github.com/jeffknupp/sandman2
+https://swagger.io/
+https://flask-restful.readthedocs.io/en/0.3.5/	
+https://www.fullstackpython.com/api-creation.html
+https://medium.com/adobe-io/three-principles-of-api-first-design-fa6666d9f694
+or SAAS?
+http://www.api-first.com/
+https://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/
+https://dzone.com/articles/an-api-first-development-approach-1
 
 ## SOURCES
 https://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/
